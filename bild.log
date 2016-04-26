@@ -1,0 +1,1918 @@
+[05/13/15 13:02:41 <module> ./bild.py:20 bilder.py:124] platform=darwin
+[05/13/15 13:02:41 <module> ./bild.py:20 bilder.py:125] jdk={'1.6': '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home', '1.8': '/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home'}
+[05/13/15 13:02:41] require compile
+[05/13/15 13:02:41 require ./bild.py:85 bilder.py:422] require compile
+[05/13/15 13:02:41] require parser
+[05/13/15 13:02:41 require ./bild.py:30 bilder.py:422] require parser
+[05/13/15 13:02:41 antlr4 ./bild.py:26 bilder.py:474] java -cp /Users/xyz/.bild/jars/antlr-4.5-complete.jar org.antlr.v4.Tool -package cs652.j.parser -o /Users/xyz/Desktop/Th111-vtable/gen/cs652/j/parser -visitor /Users/xyz/Desktop/Th111-vtable/src/cs652/j/parser/J.g4
+[05/13/15 13:02:41] build compile
+[05/13/15 13:02:41 require ./bild.py:30 bilder.py:430] build compile
+[05/13/15 13:02:41 javac ./bild.py:33 bilder.py:503] 1.8.0_11
+[05/13/15 13:02:41 javac ./bild.py:33 bilder.py:511] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/bin/javac -d /Users/xyz/Desktop/Th111-vtable/out -cp src:gen:out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/ObjectArg.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/TypeSpec.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/CtorCall.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/PrimitiveTypeSpec.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/Blocks.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/BaseSymbol.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/IfElseStat.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/ClassSymbol.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/LiteralRef.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/Block.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/VariableSymbol.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/ClassDef.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/semantics/JClass.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/ThisRef.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/MethodDef.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/MemberSymbol.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/semantics/JVar.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/WhileStat.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/Field.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/MethodSymbol.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/FunctionSymbol.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/TypedSymbol.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/semantics/ComputeTypes.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/NullRef.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/VoidType.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/semantics/SetScopes.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/MainMethod.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/CallStat.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/FuncName.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/SymbolTable.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/semantics/JArg.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/ArgDef.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/LocalScope.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/SymbolWithScope.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/semantics/JField.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/FuncPtrType.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/semantics/DefineScopesAndSymbols.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/DataAggregateSymbol.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/Expr.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/ReturnStat.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/Scope.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/Type.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/FieldRef.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/ElseStat.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/BaseScope.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/ModelConverter.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/Utils.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/IfStat.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/PredefinedScope.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/Stat.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/Symbol.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/semantics/JMethod.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/PrintStringStat.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/MethodCall.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/PrintStat.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/CFile.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/Vtable.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/CodeGenerator.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/ModelElement.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/VarDef.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/GlobalScope.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/PrimitiveType.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/TypeCast.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/OutputModelObject.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/ObjectTypeSpec.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/InvalidType.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/StringTable.java /Users/xyz/Desktop/Th111-vtable/src/org/antlr/symbols/FieldSymbol.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/JTran.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/AssignStat.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/semantics/JPrimitiveType.java /Users/xyz/Desktop/Th111-vtable/src/cs652/j/codegen/model/VarRef.java
+[05/13/15 13:02:43 javac ./bild.py:33 bilder.py:511] Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+[05/13/15 13:02:43] build tests
+[05/13/15 13:02:43 require ./bild.py:85 bilder.py:430] build tests
+[05/13/15 13:02:43 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/Args.j
+[05/13/15 13:02:43 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/Args.c tests/cs652/j/Args.j
+[05/13/15 13:02:43 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, T, t]
+entering: T:T:[foo]
+entering: foo:foo:[x, y]
+leaving: foo:foo:[x, y]
+leaving: T:T:[foo]
+leaving: global:[float, int, string, void, T, t]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  T
+typedef struct {
+    metadata *clazz;
+} T;
+
+#define T_foo_SLOT 0
+
+void T_foo(T *this, int x, float y)
+{
+    printf("%d %f\n", x, y);
+}
+
+void (*T_vtable[])() = {
+    (void (*)())&T_foo
+};
+
+metadata T_metadata = {"T", sizeof(T), &T_vtable};
+
+int main(int argc, char *argv[])
+{
+    T * t;
+
+    t = ((T *)alloc(&T_metadata));
+    (*(void(*)(T *,int,float))(*(t)->clazz->_vtable)[T_foo_SLOT])(((T *)t),34,3.14159);
+}
+[05/13/15 13:02:43 test ./bild.py:87 bilder.py:69] gcc -o /tmp/Args /tmp/Args.c
+[05/13/15 13:02:43 test ./bild.py:87 bild.py:70] /tmp/Args &> /tmp/Args.txt
+[05/13/15 13:02:43 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/Args.c
+[05/13/15 13:02:43 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/Args.c -o /tmp/expected_Args.c
+[05/13/15 13:02:43 test ./bild.py:87 bilder.py:78] diff /tmp/expected_Args.c /tmp/Args.c
+[05/13/15 13:02:43 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/Args.txt /tmp/Args.txt
+[05/13/15 13:02:43 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/Assign.j
+[05/13/15 13:02:43 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/Assign.c tests/cs652/j/Assign.j
+[05/13/15 13:02:43 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, x]
+leaving: global:[float, int, string, void, x]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+int main(int argc, char *argv[])
+{
+    int x;
+
+    x = 1;
+    printf("%d\n", x);
+}
+[05/13/15 13:02:43 test ./bild.py:87 bilder.py:69] gcc -o /tmp/Assign /tmp/Assign.c
+[05/13/15 13:02:43 test ./bild.py:87 bild.py:70] /tmp/Assign &> /tmp/Assign.txt
+[05/13/15 13:02:43 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/Assign.c
+[05/13/15 13:02:43 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/Assign.c -o /tmp/expected_Assign.c
+[05/13/15 13:02:43 test ./bild.py:87 bilder.py:78] diff /tmp/expected_Assign.c /tmp/Assign.c
+[05/13/15 13:02:43 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/Assign.txt /tmp/Assign.txt
+[05/13/15 13:02:43 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/AssignFromCall.j
+[05/13/15 13:02:43 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/AssignFromCall.c tests/cs652/j/AssignFromCall.j
+[05/13/15 13:02:44 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, T, t, q]
+entering: T:T:[f]
+entering: f:f:[]
+leaving: f:f:[]
+leaving: T:T:[f]
+leaving: global:[float, int, string, void, T, t, q]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  T
+typedef struct {
+    metadata *clazz;
+} T;
+
+#define T_f_SLOT 0
+
+float T_f(T *this)
+{
+    return 3.14;
+}
+
+void (*T_vtable[])() = {
+    (void (*)())&T_f
+};
+
+metadata T_metadata = {"T", sizeof(T), &T_vtable};
+
+int main(int argc, char *argv[])
+{
+    T * t;
+    float q;
+
+    t = ((T *)alloc(&T_metadata));
+    q = (*(float(*)(T *))(*(t)->clazz->_vtable)[T_f_SLOT])(((T *)t));
+    printf("%f\n", q);
+}
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:69] gcc -o /tmp/AssignFromCall /tmp/AssignFromCall.c
+[05/13/15 13:02:44 test ./bild.py:87 bild.py:70] /tmp/AssignFromCall &> /tmp/AssignFromCall.txt
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/AssignFromCall.c
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/AssignFromCall.c -o /tmp/expected_AssignFromCall.c
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:78] diff /tmp/expected_AssignFromCall.c /tmp/AssignFromCall.c
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/AssignFromCall.txt /tmp/AssignFromCall.txt
+[05/13/15 13:02:44 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/Fields.j
+[05/13/15 13:02:44 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/Fields.c tests/cs652/j/Fields.j
+[05/13/15 13:02:44 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, T, t]
+entering: T:T:[x, y, foo]
+entering: foo:foo:[]
+leaving: foo:foo:[]
+leaving: T:T:[x, y, foo]
+leaving: global:[float, int, string, void, T, t]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  T
+typedef struct {
+    metadata *clazz;
+    int x;
+    float y;
+} T;
+
+#define T_foo_SLOT 0
+
+void T_foo(T *this)
+{
+    printf("%d %f\n", this->x, this->y);
+}
+
+void (*T_vtable[])() = {
+    (void (*)())&T_foo
+};
+
+metadata T_metadata = {"T", sizeof(T), &T_vtable};
+
+int main(int argc, char *argv[])
+{
+    T * t;
+
+    t = ((T *)alloc(&T_metadata));
+    t->x = 1;
+    t->y = 2.05;
+    (*(void(*)(T *))(*(t)->clazz->_vtable)[T_foo_SLOT])(((T *)t));
+}
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:69] gcc -o /tmp/Fields /tmp/Fields.c
+[05/13/15 13:02:44 test ./bild.py:87 bild.py:70] /tmp/Fields &> /tmp/Fields.txt
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/Fields.c
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/Fields.c -o /tmp/expected_Fields.c
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:78] diff /tmp/expected_Fields.c /tmp/Fields.c
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/Fields.txt /tmp/Fields.txt
+[05/13/15 13:02:44 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/FieldsFromOutside.j
+[05/13/15 13:02:44 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/FieldsFromOutside.c tests/cs652/j/FieldsFromOutside.j
+[05/13/15 13:02:44 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, T, t]
+entering: T:T:[x, y]
+leaving: T:T:[x, y]
+leaving: global:[float, int, string, void, T, t]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  T
+typedef struct {
+    metadata *clazz;
+    int x;
+    float y;
+} T;
+
+
+
+void (*T_vtable[])() = {
+};
+
+metadata T_metadata = {"T", sizeof(T), &T_vtable};
+
+int main(int argc, char *argv[])
+{
+    T * t;
+
+    t = ((T *)alloc(&T_metadata));
+    t->x = 1;
+    t->y = 2;
+    printf("%d %f\n", t->x, t->y);
+}
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:69] gcc -o /tmp/FieldsFromOutside /tmp/FieldsFromOutside.c
+[05/13/15 13:02:44 test ./bild.py:87 bild.py:70] /tmp/FieldsFromOutside &> /tmp/FieldsFromOutside.txt
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/FieldsFromOutside.c
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/FieldsFromOutside.c -o /tmp/expected_FieldsFromOutside.c
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:78] diff /tmp/expected_FieldsFromOutside.c /tmp/FieldsFromOutside.c
+[05/13/15 13:02:44 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/FieldsFromOutside.txt /tmp/FieldsFromOutside.txt
+[05/13/15 13:02:44 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/if.j
+[05/13/15 13:02:44 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/if.c tests/cs652/j/if.j
+[05/13/15 13:02:45 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, x]
+leaving: global:[float, int, string, void, x]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+int main(int argc, char *argv[])
+{
+    int x;
+
+    x = 1;
+    if ( x ) printf("x is 1\n");
+}
+[05/13/15 13:02:45 test ./bild.py:87 bilder.py:69] gcc -o /tmp/if /tmp/if.c
+[05/13/15 13:02:45 test ./bild.py:87 bild.py:70] /tmp/if &> /tmp/if.txt
+[05/13/15 13:02:45 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/if.c
+[05/13/15 13:02:45 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/if.c -o /tmp/expected_if.c
+[05/13/15 13:02:45 test ./bild.py:87 bilder.py:78] diff /tmp/expected_if.c /tmp/if.c
+[05/13/15 13:02:45 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/if.txt /tmp/if.txt
+[05/13/15 13:02:45 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/ifelse.j
+[05/13/15 13:02:45 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/ifelse.c tests/cs652/j/ifelse.j
+[05/13/15 13:02:45 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, x]
+leaving: global:[float, int, string, void, x]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+int main(int argc, char *argv[])
+{
+    int x;
+
+    x = 0;
+    if ( x ) printf("x is 1\n");
+    else printf("x is 2\n");
+}
+[05/13/15 13:02:45 test ./bild.py:87 bilder.py:69] gcc -o /tmp/ifelse /tmp/ifelse.c
+[05/13/15 13:02:45 test ./bild.py:87 bild.py:70] /tmp/ifelse &> /tmp/ifelse.txt
+[05/13/15 13:02:45 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/ifelse.c
+[05/13/15 13:02:45 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/ifelse.c -o /tmp/expected_ifelse.c
+[05/13/15 13:02:45 test ./bild.py:87 bilder.py:78] diff /tmp/expected_ifelse.c /tmp/ifelse.c
+[05/13/15 13:02:45 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/ifelse.txt /tmp/ifelse.txt
+[05/13/15 13:02:45 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/Inherit.j
+[05/13/15 13:02:45 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/Inherit.c tests/cs652/j/Inherit.j
+[05/13/15 13:02:46 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, Animal, Dog, a, d]
+entering: Animal:Animal:[ID, getID, speak]
+entering: getID:getID:[]
+leaving: getID:getID:[]
+entering: speak:speak:[]
+leaving: speak:speak:[]
+leaving: Animal:Animal:[ID, getID, speak]
+entering: Dog:Dog:[speak]
+entering: speak:speak:[]
+leaving: speak:speak:[]
+leaving: Dog:Dog:[speak]
+leaving: global:[float, int, string, void, Animal, Dog, a, d]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  Animal
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Animal;
+
+#define Animal_getID_SLOT 0
+#define Animal_speak_SLOT 1
+
+int Animal_getID(Animal *this)
+{
+    return this->ID;
+}
+void Animal_speak(Animal *this)
+{
+    printf("blort!\n");
+}
+
+void (*Animal_vtable[])() = {
+    (void (*)())&Animal_getID,
+    (void (*)())&Animal_speak
+};
+
+metadata Animal_metadata = {"Animal", sizeof(Animal), &Animal_vtable};
+
+// D e f i n e  C l a s s  Dog
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Dog;
+
+#define Dog_getID_SLOT 0
+#define Dog_speak_SLOT 1
+
+void Dog_speak(Dog *this)
+{
+    printf("woof!\n");
+}
+
+void (*Dog_vtable[])() = {
+    (void (*)())&Animal_getID,
+    (void (*)())&Dog_speak
+};
+
+metadata Dog_metadata = {"Dog", sizeof(Dog), &Dog_vtable};
+
+int main(int argc, char *argv[])
+{
+    Animal * a;
+    Dog * d;
+
+    a = ((Animal *)alloc(&Animal_metadata));
+    (*(void(*)(Animal *))(*(a)->clazz->_vtable)[Animal_speak_SLOT])(((Animal *)a));
+    a->ID = 4;
+    printf("%d\n", (*(int(*)(Animal *))(*(a)->clazz->_vtable)[Animal_getID_SLOT])(((Animal *)a)));
+    d = ((Dog *)alloc(&Dog_metadata));
+    d->ID = 5;
+    (*(void(*)(Dog *))(*(d)->clazz->_vtable)[Dog_speak_SLOT])(((Dog *)d));
+    printf("%d\n", (*(int(*)(Animal *))(*(d)->clazz->_vtable)[Dog_getID_SLOT])(((Animal *)d)));
+    printf("%d\n", d->ID);
+}
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:69] gcc -o /tmp/Inherit /tmp/Inherit.c
+[05/13/15 13:02:46 test ./bild.py:87 bild.py:70] /tmp/Inherit &> /tmp/Inherit.txt
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/Inherit.c
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/Inherit.c -o /tmp/expected_Inherit.c
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:78] diff /tmp/expected_Inherit.c /tmp/Inherit.c
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/Inherit.txt /tmp/Inherit.txt
+[05/13/15 13:02:46 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/InheritFields.j
+[05/13/15 13:02:46 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/InheritFields.c tests/cs652/j/InheritFields.j
+[05/13/15 13:02:46 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, Animal, Dog, d]
+entering: Animal:Animal:[ID]
+leaving: Animal:Animal:[ID]
+entering: Dog:Dog:[]
+leaving: Dog:Dog:[]
+leaving: global:[float, int, string, void, Animal, Dog, d]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  Animal
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Animal;
+
+
+
+void (*Animal_vtable[])() = {
+};
+
+metadata Animal_metadata = {"Animal", sizeof(Animal), &Animal_vtable};
+
+// D e f i n e  C l a s s  Dog
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Dog;
+
+
+
+void (*Dog_vtable[])() = {
+};
+
+metadata Dog_metadata = {"Dog", sizeof(Dog), &Dog_vtable};
+
+int main(int argc, char *argv[])
+{
+    Dog * d;
+
+    d = ((Dog *)alloc(&Dog_metadata));
+    d->ID = 5;
+    printf("%d\n", d->ID);
+}
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:69] gcc -o /tmp/InheritFields /tmp/InheritFields.c
+[05/13/15 13:02:46 test ./bild.py:87 bild.py:70] /tmp/InheritFields &> /tmp/InheritFields.txt
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/InheritFields.c
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/InheritFields.c -o /tmp/expected_InheritFields.c
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:78] diff /tmp/expected_InheritFields.c /tmp/InheritFields.c
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/InheritFields.txt /tmp/InheritFields.txt
+[05/13/15 13:02:46 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/InheritFields3Level.j
+[05/13/15 13:02:46 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/InheritFields3Level.c tests/cs652/j/InheritFields3Level.j
+[05/13/15 13:02:46 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, Animal, Dog, Pekinese, d]
+entering: Animal:Animal:[ID]
+leaving: Animal:Animal:[ID]
+entering: Dog:Dog:[]
+leaving: Dog:Dog:[]
+entering: Pekinese:Pekinese:[]
+leaving: Pekinese:Pekinese:[]
+leaving: global:[float, int, string, void, Animal, Dog, Pekinese, d]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  Animal
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Animal;
+
+
+
+void (*Animal_vtable[])() = {
+};
+
+metadata Animal_metadata = {"Animal", sizeof(Animal), &Animal_vtable};
+
+// D e f i n e  C l a s s  Dog
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Dog;
+
+
+
+void (*Dog_vtable[])() = {
+};
+
+metadata Dog_metadata = {"Dog", sizeof(Dog), &Dog_vtable};
+
+// D e f i n e  C l a s s  Pekinese
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Pekinese;
+
+
+
+void (*Pekinese_vtable[])() = {
+};
+
+metadata Pekinese_metadata = {"Pekinese", sizeof(Pekinese), &Pekinese_vtable};
+
+int main(int argc, char *argv[])
+{
+    Pekinese * d;
+
+    d = ((Pekinese *)alloc(&Pekinese_metadata));
+    d->ID = 5;
+    printf("%d\n", d->ID);
+}
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:69] gcc -o /tmp/InheritFields3Level /tmp/InheritFields3Level.c
+[05/13/15 13:02:46 test ./bild.py:87 bild.py:70] /tmp/InheritFields3Level &> /tmp/InheritFields3Level.txt
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/InheritFields3Level.c
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/InheritFields3Level.c -o /tmp/expected_InheritFields3Level.c
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:78] diff /tmp/expected_InheritFields3Level.c /tmp/InheritFields3Level.c
+[05/13/15 13:02:46 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/InheritFields3Level.txt /tmp/InheritFields3Level.txt
+[05/13/15 13:02:46 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/InheritFieldTestInMethod.j
+[05/13/15 13:02:46 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/InheritFieldTestInMethod.c tests/cs652/j/InheritFieldTestInMethod.j
+[05/13/15 13:02:47 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, Animal, Dog, d]
+entering: Animal:Animal:[ID]
+leaving: Animal:Animal:[ID]
+entering: Dog:Dog:[speak, speak2]
+entering: speak:speak:[]
+leaving: speak:speak:[]
+entering: speak2:speak2:[]
+leaving: speak2:speak2:[]
+leaving: Dog:Dog:[speak, speak2]
+leaving: global:[float, int, string, void, Animal, Dog, d]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  Animal
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Animal;
+
+
+
+void (*Animal_vtable[])() = {
+};
+
+metadata Animal_metadata = {"Animal", sizeof(Animal), &Animal_vtable};
+
+// D e f i n e  C l a s s  Dog
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Dog;
+
+#define Dog_speak_SLOT 0
+#define Dog_speak2_SLOT 1
+
+void Dog_speak(Dog *this)
+{
+    printf("%d\n", this->ID);
+}
+void Dog_speak2(Dog *this)
+{
+    printf("%d\n", this->ID);
+}
+
+void (*Dog_vtable[])() = {
+    (void (*)())&Dog_speak,
+    (void (*)())&Dog_speak2
+};
+
+metadata Dog_metadata = {"Dog", sizeof(Dog), &Dog_vtable};
+
+int main(int argc, char *argv[])
+{
+    Dog * d;
+
+    d = ((Dog *)alloc(&Dog_metadata));
+    d->ID = 5;
+    (*(void(*)(Dog *))(*(d)->clazz->_vtable)[Dog_speak_SLOT])(((Dog *)d));
+    (*(void(*)(Dog *))(*(d)->clazz->_vtable)[Dog_speak2_SLOT])(((Dog *)d));
+}
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:69] gcc -o /tmp/InheritFieldTestInMethod /tmp/InheritFieldTestInMethod.c
+[05/13/15 13:02:47 test ./bild.py:87 bild.py:70] /tmp/InheritFieldTestInMethod &> /tmp/InheritFieldTestInMethod.txt
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/InheritFieldTestInMethod.c
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/InheritFieldTestInMethod.c -o /tmp/expected_InheritFieldTestInMethod.c
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:78] diff /tmp/expected_InheritFieldTestInMethod.c /tmp/InheritFieldTestInMethod.c
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/InheritFieldTestInMethod.txt /tmp/InheritFieldTestInMethod.txt
+[05/13/15 13:02:47 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/InheritMethods3Level.j
+[05/13/15 13:02:47 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/InheritMethods3Level.c tests/cs652/j/InheritMethods3Level.j
+[05/13/15 13:02:47 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, Animal, Dog, Pekinese, d]
+entering: Animal:Animal:[getID]
+entering: getID:getID:[]
+leaving: getID:getID:[]
+leaving: Animal:Animal:[getID]
+entering: Dog:Dog:[blort]
+entering: blort:blort:[]
+leaving: blort:blort:[]
+leaving: Dog:Dog:[blort]
+entering: Pekinese:Pekinese:[foo, bar]
+entering: foo:foo:[]
+leaving: foo:foo:[]
+entering: bar:bar:[]
+leaving: bar:bar:[]
+leaving: Pekinese:Pekinese:[foo, bar]
+leaving: global:[float, int, string, void, Animal, Dog, Pekinese, d]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  Animal
+typedef struct {
+    metadata *clazz;
+} Animal;
+
+#define Animal_getID_SLOT 0
+
+int Animal_getID(Animal *this)
+{
+    return 99;
+}
+
+void (*Animal_vtable[])() = {
+    (void (*)())&Animal_getID
+};
+
+metadata Animal_metadata = {"Animal", sizeof(Animal), &Animal_vtable};
+
+// D e f i n e  C l a s s  Dog
+typedef struct {
+    metadata *clazz;
+} Dog;
+
+#define Dog_getID_SLOT 0
+#define Dog_blort_SLOT 1
+
+void Dog_blort(Dog *this)
+{
+}
+
+void (*Dog_vtable[])() = {
+    (void (*)())&Animal_getID,
+    (void (*)())&Dog_blort
+};
+
+metadata Dog_metadata = {"Dog", sizeof(Dog), &Dog_vtable};
+
+// D e f i n e  C l a s s  Pekinese
+typedef struct {
+    metadata *clazz;
+} Pekinese;
+
+#define Pekinese_getID_SLOT 0
+#define Pekinese_blort_SLOT 1
+#define Pekinese_foo_SLOT 2
+#define Pekinese_bar_SLOT 3
+
+int Pekinese_foo(Pekinese *this)
+{
+    return (*(int(*)(Animal *))(*(this)->clazz->_vtable)[Pekinese_getID_SLOT])(((Animal *)this));
+}
+int Pekinese_bar(Pekinese *this)
+{
+    return (*(int(*)(Animal *))(*(this)->clazz->_vtable)[Pekinese_getID_SLOT])(((Animal *)this));
+}
+
+void (*Pekinese_vtable[])() = {
+    (void (*)())&Animal_getID,
+    (void (*)())&Dog_blort,
+    (void (*)())&Pekinese_foo,
+    (void (*)())&Pekinese_bar
+};
+
+metadata Pekinese_metadata = {"Pekinese", sizeof(Pekinese), &Pekinese_vtable};
+
+int main(int argc, char *argv[])
+{
+    Pekinese * d;
+
+    d = ((Pekinese *)alloc(&Pekinese_metadata));
+    printf("%d\n", (*(int(*)(Animal *))(*(d)->clazz->_vtable)[Pekinese_getID_SLOT])(((Animal *)d)));
+    printf("%d\n", (*(int(*)(Pekinese *))(*(d)->clazz->_vtable)[Pekinese_foo_SLOT])(((Pekinese *)d)));
+    printf("%d\n", (*(int(*)(Pekinese *))(*(d)->clazz->_vtable)[Pekinese_bar_SLOT])(((Pekinese *)d)));
+}
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:69] gcc -o /tmp/InheritMethods3Level /tmp/InheritMethods3Level.c
+[05/13/15 13:02:47 test ./bild.py:87 bild.py:70] /tmp/InheritMethods3Level &> /tmp/InheritMethods3Level.txt
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/InheritMethods3Level.c
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/InheritMethods3Level.c -o /tmp/expected_InheritMethods3Level.c
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:78] diff /tmp/expected_InheritMethods3Level.c /tmp/InheritMethods3Level.c
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/InheritMethods3Level.txt /tmp/InheritMethods3Level.txt
+[05/13/15 13:02:47 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/Lots.j
+[05/13/15 13:02:47 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/Lots.c tests/cs652/j/Lots.j
+[05/13/15 13:02:47 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, T, t, u]
+entering: T:T:[x, y, foo, bar]
+entering: foo:foo:[]
+leaving: foo:foo:[]
+entering: bar:bar:[x, q, z]
+leaving: bar:bar:[x, q, z]
+leaving: T:T:[x, y, foo, bar]
+leaving: global:[float, int, string, void, T, t, u]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  T
+typedef struct {
+    metadata *clazz;
+    int x;
+    float y;
+} T;
+
+#define T_foo_SLOT 0
+#define T_bar_SLOT 1
+
+void T_foo(T *this)
+{
+    printf("hi\n");
+}
+int T_bar(T *this, int x, T * q)
+{
+    int z;
+
+    printf("%d %d\n", x, q->x);
+    (*(void(*)(T *))(*(this)->clazz->_vtable)[T_foo_SLOT])(((T *)this));
+    (*(void(*)(T *))(*(this)->clazz->_vtable)[T_foo_SLOT])(((T *)this));
+    z = q->x;
+    this->y = 3;
+    return this->y;
+}
+
+void (*T_vtable[])() = {
+    (void (*)())&T_foo,
+    (void (*)())&T_bar
+};
+
+metadata T_metadata = {"T", sizeof(T), &T_vtable};
+
+int main(int argc, char *argv[])
+{
+    T * t;
+    T * u;
+
+    t = ((T *)alloc(&T_metadata));
+    (*(void(*)(T *))(*(t)->clazz->_vtable)[T_foo_SLOT])(((T *)t));
+    (*(int(*)(T *,int,T *))(*(t)->clazz->_vtable)[T_bar_SLOT])(((T *)t),11,((T *)alloc(&T_metadata)));
+    u = ((T *)alloc(&T_metadata));
+    u->x = 2;
+    (*(int(*)(T *,int,T *))(*(t)->clazz->_vtable)[T_bar_SLOT])(((T *)t),99,((T *) u));
+}
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:69] gcc -o /tmp/Lots /tmp/Lots.c
+[05/13/15 13:02:47 test ./bild.py:87 bild.py:70] /tmp/Lots &> /tmp/Lots.txt
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/Lots.c
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/Lots.c -o /tmp/expected_Lots.c
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:78] diff /tmp/expected_Lots.c /tmp/Lots.c
+[05/13/15 13:02:47 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/Lots.txt /tmp/Lots.txt
+[05/13/15 13:02:47 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/Method.j
+[05/13/15 13:02:47 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/Method.c tests/cs652/j/Method.j
+[05/13/15 13:02:48 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, T, t]
+entering: T:T:[foo]
+entering: foo:foo:[]
+leaving: foo:foo:[]
+leaving: T:T:[foo]
+leaving: global:[float, int, string, void, T, t]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  T
+typedef struct {
+    metadata *clazz;
+} T;
+
+#define T_foo_SLOT 0
+
+void T_foo(T *this)
+{
+    printf("hi\n");
+}
+
+void (*T_vtable[])() = {
+    (void (*)())&T_foo
+};
+
+metadata T_metadata = {"T", sizeof(T), &T_vtable};
+
+int main(int argc, char *argv[])
+{
+    T * t;
+
+    t = ((T *)alloc(&T_metadata));
+    (*(void(*)(T *))(*(t)->clazz->_vtable)[T_foo_SLOT])(((T *)t));
+}
+[05/13/15 13:02:48 test ./bild.py:87 bilder.py:69] gcc -o /tmp/Method /tmp/Method.c
+[05/13/15 13:02:48 test ./bild.py:87 bild.py:70] /tmp/Method &> /tmp/Method.txt
+[05/13/15 13:02:48 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/Method.c
+[05/13/15 13:02:48 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/Method.c -o /tmp/expected_Method.c
+[05/13/15 13:02:48 test ./bild.py:87 bilder.py:78] diff /tmp/expected_Method.c /tmp/Method.c
+[05/13/15 13:02:48 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/Method.txt /tmp/Method.txt
+[05/13/15 13:02:48 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/MultiMethods.j
+[05/13/15 13:02:48 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/MultiMethods.c tests/cs652/j/MultiMethods.j
+[05/13/15 13:02:48 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, T, t]
+entering: T:T:[foo, bar]
+entering: foo:foo:[]
+leaving: foo:foo:[]
+entering: bar:bar:[]
+leaving: bar:bar:[]
+leaving: T:T:[foo, bar]
+leaving: global:[float, int, string, void, T, t]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  T
+typedef struct {
+    metadata *clazz;
+} T;
+
+#define T_foo_SLOT 0
+#define T_bar_SLOT 1
+
+void T_foo(T *this)
+{
+    printf("foo\n");
+}
+void T_bar(T *this)
+{
+    printf("bar\n");
+}
+
+void (*T_vtable[])() = {
+    (void (*)())&T_foo,
+    (void (*)())&T_bar
+};
+
+metadata T_metadata = {"T", sizeof(T), &T_vtable};
+
+int main(int argc, char *argv[])
+{
+    T * t;
+
+    t = ((T *)alloc(&T_metadata));
+    (*(void(*)(T *))(*(t)->clazz->_vtable)[T_foo_SLOT])(((T *)t));
+    (*(void(*)(T *))(*(t)->clazz->_vtable)[T_bar_SLOT])(((T *)t));
+}
+[05/13/15 13:02:48 test ./bild.py:87 bilder.py:69] gcc -o /tmp/MultiMethods /tmp/MultiMethods.c
+[05/13/15 13:02:48 test ./bild.py:87 bild.py:70] /tmp/MultiMethods &> /tmp/MultiMethods.txt
+[05/13/15 13:02:48 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/MultiMethods.c
+[05/13/15 13:02:48 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/MultiMethods.c -o /tmp/expected_MultiMethods.c
+[05/13/15 13:02:48 test ./bild.py:87 bilder.py:78] diff /tmp/expected_MultiMethods.c /tmp/MultiMethods.c
+[05/13/15 13:02:48 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/MultiMethods.txt /tmp/MultiMethods.txt
+[05/13/15 13:02:48 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/null.j
+[05/13/15 13:02:48 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/null.c tests/cs652/j/null.j
+[05/13/15 13:02:48 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, T, t]
+entering: T:T:[foo]
+entering: foo:foo:[y]
+leaving: foo:foo:[y]
+leaving: T:T:[foo]
+leaving: global:[float, int, string, void, T, t]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  T
+typedef struct {
+    metadata *clazz;
+} T;
+
+#define T_foo_SLOT 0
+
+void T_foo(T *this, T * y)
+{
+    printf("T.foo %p\n", y);
+}
+
+void (*T_vtable[])() = {
+    (void (*)())&T_foo
+};
+
+metadata T_metadata = {"T", sizeof(T), &T_vtable};
+
+int main(int argc, char *argv[])
+{
+    T * t;
+
+    t = ((T *)alloc(&T_metadata));
+    (*(void(*)(T *,T *))(*(t)->clazz->_vtable)[T_foo_SLOT])(((T *)t),NULL);
+    t = ((T *)NULL);
+}
+[05/13/15 13:02:48 test ./bild.py:87 bilder.py:69] gcc -o /tmp/null /tmp/null.c
+[05/13/15 13:02:48 test ./bild.py:87 bild.py:70] /tmp/null &> /tmp/null.txt
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/null.c
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/null.c -o /tmp/expected_null.c
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:78] diff /tmp/expected_null.c /tmp/null.c
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/null.txt /tmp/null.txt
+[05/13/15 13:02:49 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/polymorph.j
+[05/13/15 13:02:49 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/polymorph.c tests/cs652/j/polymorph.j
+[05/13/15 13:02:49 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, Animal, Dog, a, d]
+entering: Animal:Animal:[ID, getID, speak]
+entering: getID:getID:[]
+leaving: getID:getID:[]
+entering: speak:speak:[]
+leaving: speak:speak:[]
+leaving: Animal:Animal:[ID, getID, speak]
+entering: Dog:Dog:[speak]
+entering: speak:speak:[]
+leaving: speak:speak:[]
+leaving: Dog:Dog:[speak]
+leaving: global:[float, int, string, void, Animal, Dog, a, d]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  Animal
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Animal;
+
+#define Animal_getID_SLOT 0
+#define Animal_speak_SLOT 1
+
+int Animal_getID(Animal *this)
+{
+    return this->ID;
+}
+void Animal_speak(Animal *this)
+{
+    printf("%d\n", (*(int(*)(Animal *))(*(this)->clazz->_vtable)[Animal_getID_SLOT])(((Animal *)this)));
+}
+
+void (*Animal_vtable[])() = {
+    (void (*)())&Animal_getID,
+    (void (*)())&Animal_speak
+};
+
+metadata Animal_metadata = {"Animal", sizeof(Animal), &Animal_vtable};
+
+// D e f i n e  C l a s s  Dog
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Dog;
+
+#define Dog_getID_SLOT 0
+#define Dog_speak_SLOT 1
+
+void Dog_speak(Dog *this)
+{
+    printf("woof!\n");
+}
+
+void (*Dog_vtable[])() = {
+    (void (*)())&Animal_getID,
+    (void (*)())&Dog_speak
+};
+
+metadata Dog_metadata = {"Dog", sizeof(Dog), &Dog_vtable};
+
+int main(int argc, char *argv[])
+{
+    Animal * a;
+    Dog * d;
+
+    d = ((Dog *)alloc(&Dog_metadata));
+    a = ((Animal *)d);
+    (*(void(*)(Animal *))(*(a)->clazz->_vtable)[Animal_speak_SLOT])(((Animal *)a));
+    (*(void(*)(Dog *))(*(d)->clazz->_vtable)[Dog_speak_SLOT])(((Dog *)d));
+}
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:69] gcc -o /tmp/polymorph /tmp/polymorph.c
+[05/13/15 13:02:49 test ./bild.py:87 bild.py:70] /tmp/polymorph &> /tmp/polymorph.txt
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/polymorph.c
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/polymorph.c -o /tmp/expected_polymorph.c
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:78] diff /tmp/expected_polymorph.c /tmp/polymorph.c
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/polymorph.txt /tmp/polymorph.txt
+[05/13/15 13:02:49 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/print.j
+[05/13/15 13:02:49 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/print.c tests/cs652/j/print.j
+[05/13/15 13:02:49 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void]
+leaving: global:[float, int, string, void]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+int main(int argc, char *argv[])
+{
+    printf("hello\n");
+    printf("%d %f\n", 42, 3.14);
+}
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:69] gcc -o /tmp/print /tmp/print.c
+[05/13/15 13:02:49 test ./bild.py:87 bild.py:70] /tmp/print &> /tmp/print.txt
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/print.c
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/print.c -o /tmp/expected_print.c
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:78] diff /tmp/expected_print.c /tmp/print.c
+[05/13/15 13:02:49 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/print.txt /tmp/print.txt
+[05/13/15 13:02:49 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/qcall.j
+[05/13/15 13:02:49 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/qcall.c tests/cs652/j/qcall.j
+[05/13/15 13:02:50 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, T, t]
+entering: T:T:[foo, bar]
+entering: foo:foo:[]
+leaving: foo:foo:[]
+entering: bar:bar:[]
+leaving: bar:bar:[]
+leaving: T:T:[foo, bar]
+leaving: global:[float, int, string, void, T, t]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  T
+typedef struct {
+    metadata *clazz;
+} T;
+
+#define T_foo_SLOT 0
+#define T_bar_SLOT 1
+
+void T_foo(T *this)
+{
+    printf("hi\n");
+}
+void T_bar(T *this)
+{
+    (*(void(*)(T *))(*(this)->clazz->_vtable)[T_foo_SLOT])(((T *)this));
+    (*(void(*)(T *))(*(this)->clazz->_vtable)[T_foo_SLOT])(((T *)this));
+}
+
+void (*T_vtable[])() = {
+    (void (*)())&T_foo,
+    (void (*)())&T_bar
+};
+
+metadata T_metadata = {"T", sizeof(T), &T_vtable};
+
+int main(int argc, char *argv[])
+{
+    T * t;
+
+    t = ((T *)alloc(&T_metadata));
+    (*(void(*)(T *))(*(t)->clazz->_vtable)[T_bar_SLOT])(((T *)t));
+}
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:69] gcc -o /tmp/qcall /tmp/qcall.c
+[05/13/15 13:02:50 test ./bild.py:87 bild.py:70] /tmp/qcall &> /tmp/qcall.txt
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/qcall.c
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/qcall.c -o /tmp/expected_qcall.c
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:78] diff /tmp/expected_qcall.c /tmp/qcall.c
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/qcall.txt /tmp/qcall.txt
+[05/13/15 13:02:50 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/Return.j
+[05/13/15 13:02:50 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/Return.c tests/cs652/j/Return.j
+[05/13/15 13:02:50 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, T]
+entering: T:T:[foo]
+entering: foo:foo:[x]
+leaving: foo:foo:[x]
+leaving: T:T:[foo]
+leaving: global:[float, int, string, void, T]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  T
+typedef struct {
+    metadata *clazz;
+} T;
+
+#define T_foo_SLOT 0
+
+int T_foo(T *this, int x)
+{
+    return x;
+}
+
+void (*T_vtable[])() = {
+    (void (*)())&T_foo
+};
+
+metadata T_metadata = {"T", sizeof(T), &T_vtable};
+
+int main(int argc, char *argv[])
+{
+}
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:69] gcc -o /tmp/Return /tmp/Return.c
+[05/13/15 13:02:50 test ./bild.py:87 bild.py:70] /tmp/Return &> /tmp/Return.txt
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/Return.c
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/Return.c -o /tmp/expected_Return.c
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:78] diff /tmp/expected_Return.c /tmp/Return.c
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/Return.txt /tmp/Return.txt
+[05/13/15 13:02:50 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/retval.j
+[05/13/15 13:02:50 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/retval.c tests/cs652/j/retval.j
+[05/13/15 13:02:50 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, T, t, y]
+entering: T:T:[foo]
+entering: foo:foo:[x]
+leaving: foo:foo:[x]
+leaving: T:T:[foo]
+leaving: global:[float, int, string, void, T, t, y]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  T
+typedef struct {
+    metadata *clazz;
+} T;
+
+#define T_foo_SLOT 0
+
+float T_foo(T *this, float x)
+{
+    return x;
+}
+
+void (*T_vtable[])() = {
+    (void (*)())&T_foo
+};
+
+metadata T_metadata = {"T", sizeof(T), &T_vtable};
+
+int main(int argc, char *argv[])
+{
+    T * t;
+    float y;
+
+    t = ((T *)alloc(&T_metadata));
+    y = (*(float(*)(T *,float))(*(t)->clazz->_vtable)[T_foo_SLOT])(((T *)t),10.5);
+    printf("%f\n", y);
+    printf("%f\n", (*(float(*)(T *,float))(*(t)->clazz->_vtable)[T_foo_SLOT])(((T *)t),1.0));
+}
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:69] gcc -o /tmp/retval /tmp/retval.c
+[05/13/15 13:02:50 test ./bild.py:87 bild.py:70] /tmp/retval &> /tmp/retval.txt
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/retval.c
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/retval.c -o /tmp/expected_retval.c
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:78] diff /tmp/expected_retval.c /tmp/retval.c
+[05/13/15 13:02:50 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/retval.txt /tmp/retval.txt
+[05/13/15 13:02:50 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/symtab.j
+[05/13/15 13:02:50 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/symtab.c tests/cs652/j/symtab.j
+[05/13/15 13:02:51 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, Employee, Mgr, Coder, ID, c]
+entering: Employee:Employee:[ID, getID, setID]
+entering: getID:getID:[]
+leaving: getID:getID:[]
+entering: setID:setID:[ID]
+leaving: setID:setID:[ID]
+leaving: Employee:Employee:[ID, getID, setID]
+entering: Mgr:Mgr:[level]
+leaving: Mgr:Mgr:[level]
+entering: Coder:Coder:[salary, boss, raise, speak, workFor]
+entering: raise:raise:[v]
+leaving: raise:raise:[v]
+entering: speak:speak:[]
+leaving: speak:speak:[]
+entering: workFor:workFor:[e]
+leaving: workFor:workFor:[e]
+leaving: Coder:Coder:[salary, boss, raise, speak, workFor]
+leaving: global:[float, int, string, void, Employee, Mgr, Coder, ID, c]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  Employee
+typedef struct {
+    metadata *clazz;
+    int ID;
+} Employee;
+
+#define Employee_getID_SLOT 0
+#define Employee_setID_SLOT 1
+
+int Employee_getID(Employee *this)
+{
+    return this->ID;
+}
+void Employee_setID(Employee *this, int ID)
+{
+    this->ID = ID;
+}
+
+void (*Employee_vtable[])() = {
+    (void (*)())&Employee_getID,
+    (void (*)())&Employee_setID
+};
+
+metadata Employee_metadata = {"Employee", sizeof(Employee), &Employee_vtable};
+
+// D e f i n e  C l a s s  Mgr
+typedef struct {
+    metadata *clazz;
+    int ID;
+    int level;
+} Mgr;
+
+#define Mgr_getID_SLOT 0
+#define Mgr_setID_SLOT 1
+
+
+void (*Mgr_vtable[])() = {
+    (void (*)())&Employee_getID,
+    (void (*)())&Employee_setID
+};
+
+metadata Mgr_metadata = {"Mgr", sizeof(Mgr), &Mgr_vtable};
+
+// D e f i n e  C l a s s  Coder
+typedef struct {
+    metadata *clazz;
+    int ID;
+    float salary;
+    Mgr * boss;
+} Coder;
+
+#define Coder_getID_SLOT 0
+#define Coder_setID_SLOT 1
+#define Coder_raise_SLOT 2
+#define Coder_speak_SLOT 3
+#define Coder_workFor_SLOT 4
+
+void Coder_raise(Coder *this, float v)
+{
+    this->salary = v;
+}
+void Coder_speak(Coder *this)
+{
+    printf("I am %d\n", this->ID);
+}
+void Coder_workFor(Coder *this, Employee * e)
+{
+    this->boss = ((Mgr *)e);
+}
+
+void (*Coder_vtable[])() = {
+    (void (*)())&Employee_getID,
+    (void (*)())&Employee_setID,
+    (void (*)())&Coder_raise,
+    (void (*)())&Coder_speak,
+    (void (*)())&Coder_workFor
+};
+
+metadata Coder_metadata = {"Coder", sizeof(Coder), &Coder_vtable};
+
+int main(int argc, char *argv[])
+{
+    int ID;
+    Coder * c;
+
+    ID = 1;
+    c = ((Coder *)alloc(&Coder_metadata));
+    c->ID = ID;
+    c->boss = ((Mgr *)alloc(&Mgr_metadata));
+    c->boss->level = 99;
+    c->boss->ID = 4;
+    printf("%d\n", (*(int(*)(Employee *))(*(c->boss)->clazz->_vtable)[Mgr_getID_SLOT])(((Employee *)c->boss)));
+    (*(void(*)(Coder *))(*(c)->clazz->_vtable)[Coder_speak_SLOT])(((Coder *)c));
+}
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:69] gcc -o /tmp/symtab /tmp/symtab.c
+[05/13/15 13:02:51 test ./bild.py:87 bild.py:70] /tmp/symtab &> /tmp/symtab.txt
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/symtab.c
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/symtab.c -o /tmp/expected_symtab.c
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:78] diff /tmp/expected_symtab.c /tmp/symtab.c
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/symtab.txt /tmp/symtab.txt
+[05/13/15 13:02:51 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/TwoClasses.j
+[05/13/15 13:02:51 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/TwoClasses.c tests/cs652/j/TwoClasses.j
+[05/13/15 13:02:51 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, A, B]
+entering: A:A:[]
+leaving: A:A:[]
+entering: B:B:[]
+leaving: B:B:[]
+leaving: global:[float, int, string, void, A, B]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  A
+typedef struct {
+    metadata *clazz;
+} A;
+
+
+
+void (*A_vtable[])() = {
+};
+
+metadata A_metadata = {"A", sizeof(A), &A_vtable};
+
+// D e f i n e  C l a s s  B
+typedef struct {
+    metadata *clazz;
+} B;
+
+
+
+void (*B_vtable[])() = {
+};
+
+metadata B_metadata = {"B", sizeof(B), &B_vtable};
+
+int main(int argc, char *argv[])
+{
+}
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:69] gcc -o /tmp/TwoClasses /tmp/TwoClasses.c
+[05/13/15 13:02:51 test ./bild.py:87 bild.py:70] /tmp/TwoClasses &> /tmp/TwoClasses.txt
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/TwoClasses.c
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/TwoClasses.c -o /tmp/expected_TwoClasses.c
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:78] diff /tmp/expected_TwoClasses.c /tmp/TwoClasses.c
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/TwoClasses.txt /tmp/TwoClasses.txt
+[05/13/15 13:02:51 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/vehicle.j
+[05/13/15 13:02:51 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/vehicle.c tests/cs652/j/vehicle.j
+[05/13/15 13:02:51 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, Vehicle, Car, Truck, v, t]
+entering: Vehicle:Vehicle:[start, getColor]
+entering: start:start:[]
+leaving: start:start:[]
+entering: getColor:getColor:[]
+leaving: getColor:getColor:[]
+leaving: Vehicle:Vehicle:[start, getColor]
+entering: Car:Car:[start, setDoors]
+entering: start:start:[]
+leaving: start:start:[]
+entering: setDoors:setDoors:[n]
+leaving: setDoors:setDoors:[n]
+leaving: Car:Car:[start, setDoors]
+entering: Truck:Truck:[start, setPayload]
+entering: start:start:[]
+leaving: start:start:[]
+entering: setPayload:setPayload:[n]
+leaving: setPayload:setPayload:[n]
+leaving: Truck:Truck:[start, setPayload]
+leaving: global:[float, int, string, void, Vehicle, Car, Truck, v, t]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  Vehicle
+typedef struct {
+    metadata *clazz;
+} Vehicle;
+
+#define Vehicle_start_SLOT 0
+#define Vehicle_getColor_SLOT 1
+
+void Vehicle_start(Vehicle *this)
+{
+}
+int Vehicle_getColor(Vehicle *this)
+{
+    return 9;
+}
+
+void (*Vehicle_vtable[])() = {
+    (void (*)())&Vehicle_start,
+    (void (*)())&Vehicle_getColor
+};
+
+metadata Vehicle_metadata = {"Vehicle", sizeof(Vehicle), &Vehicle_vtable};
+
+// D e f i n e  C l a s s  Car
+typedef struct {
+    metadata *clazz;
+} Car;
+
+#define Car_start_SLOT 0
+#define Car_getColor_SLOT 1
+#define Car_setDoors_SLOT 2
+
+void Car_start(Car *this)
+{
+}
+void Car_setDoors(Car *this, int n)
+{
+}
+
+void (*Car_vtable[])() = {
+    (void (*)())&Car_start,
+    (void (*)())&Vehicle_getColor,
+    (void (*)())&Car_setDoors
+};
+
+metadata Car_metadata = {"Car", sizeof(Car), &Car_vtable};
+
+// D e f i n e  C l a s s  Truck
+typedef struct {
+    metadata *clazz;
+} Truck;
+
+#define Truck_start_SLOT 0
+#define Truck_getColor_SLOT 1
+#define Truck_setPayload_SLOT 2
+
+void Truck_start(Truck *this)
+{
+}
+void Truck_setPayload(Truck *this, int n)
+{
+}
+
+void (*Truck_vtable[])() = {
+    (void (*)())&Truck_start,
+    (void (*)())&Vehicle_getColor,
+    (void (*)())&Truck_setPayload
+};
+
+metadata Truck_metadata = {"Truck", sizeof(Truck), &Truck_vtable};
+
+int main(int argc, char *argv[])
+{
+    Vehicle * v;
+    Truck * t;
+
+    t = ((Truck *)alloc(&Truck_metadata));
+    v = ((Vehicle *)t);
+    (*(void(*)(Truck *))(*(t)->clazz->_vtable)[Truck_start_SLOT])(((Truck *)t));
+    (*(void(*)(Truck *,int))(*(t)->clazz->_vtable)[Truck_setPayload_SLOT])(((Truck *)t),32);
+    (*(void(*)(Vehicle *))(*(v)->clazz->_vtable)[Vehicle_start_SLOT])(((Vehicle *)v));
+}
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:69] gcc -o /tmp/vehicle /tmp/vehicle.c
+[05/13/15 13:02:51 test ./bild.py:87 bild.py:70] /tmp/vehicle &> /tmp/vehicle.txt
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/vehicle.c
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/vehicle.c -o /tmp/expected_vehicle.c
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:78] diff /tmp/expected_vehicle.c /tmp/vehicle.c
+[05/13/15 13:02:51 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/vehicle.txt /tmp/vehicle.txt
+[05/13/15 13:02:51 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/vtable_check.j
+[05/13/15 13:02:51 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/vtable_check.c tests/cs652/j/vtable_check.j
+[05/13/15 13:02:52 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, Animal, Dog, Pekinese, d]
+entering: Animal:Animal:[foo, getID]
+entering: foo:foo:[]
+leaving: foo:foo:[]
+entering: getID:getID:[]
+leaving: getID:getID:[]
+leaving: Animal:Animal:[foo, getID]
+entering: Dog:Dog:[getID]
+entering: getID:getID:[]
+leaving: getID:getID:[]
+leaving: Dog:Dog:[getID]
+entering: Pekinese:Pekinese:[getID]
+entering: getID:getID:[]
+leaving: getID:getID:[]
+leaving: Pekinese:Pekinese:[getID]
+leaving: global:[float, int, string, void, Animal, Dog, Pekinese, d]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+// D e f i n e  C l a s s  Animal
+typedef struct {
+    metadata *clazz;
+} Animal;
+
+#define Animal_foo_SLOT 0
+#define Animal_getID_SLOT 1
+
+int Animal_foo(Animal *this)
+{
+    return (*(int(*)(Animal *))(*(this)->clazz->_vtable)[Animal_getID_SLOT])(((Animal *)this));
+}
+int Animal_getID(Animal *this)
+{
+    return 1;
+}
+
+void (*Animal_vtable[])() = {
+    (void (*)())&Animal_foo,
+    (void (*)())&Animal_getID
+};
+
+metadata Animal_metadata = {"Animal", sizeof(Animal), &Animal_vtable};
+
+// D e f i n e  C l a s s  Dog
+typedef struct {
+    metadata *clazz;
+} Dog;
+
+#define Dog_foo_SLOT 0
+#define Dog_getID_SLOT 1
+
+int Dog_getID(Dog *this)
+{
+    return 2;
+}
+
+void (*Dog_vtable[])() = {
+    (void (*)())&Animal_foo,
+    (void (*)())&Dog_getID
+};
+
+metadata Dog_metadata = {"Dog", sizeof(Dog), &Dog_vtable};
+
+// D e f i n e  C l a s s  Pekinese
+typedef struct {
+    metadata *clazz;
+} Pekinese;
+
+#define Pekinese_foo_SLOT 0
+#define Pekinese_getID_SLOT 1
+
+int Pekinese_getID(Pekinese *this)
+{
+    return 3;
+}
+
+void (*Pekinese_vtable[])() = {
+    (void (*)())&Animal_foo,
+    (void (*)())&Pekinese_getID
+};
+
+metadata Pekinese_metadata = {"Pekinese", sizeof(Pekinese), &Pekinese_vtable};
+
+int main(int argc, char *argv[])
+{
+    Pekinese * d;
+
+    d = ((Pekinese *)alloc(&Pekinese_metadata));
+    printf("%d\n", (*(int(*)(Animal *))(*(d)->clazz->_vtable)[Pekinese_foo_SLOT])(((Animal *)d)));
+}
+[05/13/15 13:02:52 test ./bild.py:87 bilder.py:69] gcc -o /tmp/vtable_check /tmp/vtable_check.c
+[05/13/15 13:02:52 test ./bild.py:87 bild.py:70] /tmp/vtable_check &> /tmp/vtable_check.txt
+[05/13/15 13:02:52 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/vtable_check.c
+[05/13/15 13:02:52 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/vtable_check.c -o /tmp/expected_vtable_check.c
+[05/13/15 13:02:52 test ./bild.py:87 bilder.py:78] diff /tmp/expected_vtable_check.c /tmp/vtable_check.c
+[05/13/15 13:02:52 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/vtable_check.txt /tmp/vtable_check.txt
+[05/13/15 13:02:52 test ./bild.py:87 bild.py:57] TEST tests/cs652/j/while.j
+[05/13/15 13:02:52 java ./bild.py:66 bilder.py:485] java -cp out:resources:/Users/xyz/.bild/jars/antlr-4.5-complete.jar:/Users/xyz/.bild/jars/symtab-1.0.jar cs652.j.JTran -o /tmp/while.c tests/cs652/j/while.j
+[05/13/15 13:02:52 java ./bild.py:66 bilder.py:485] entering: global:[float, int, string, void, x]
+entering: local:[]
+leaving: local:[]
+leaving: global:[float, int, string, void, x]
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    char *name;
+    int size;
+    void (*(*_vtable)[])();
+} metadata;
+
+typedef struct {
+    metadata *clazz;
+} object;
+
+object *alloc(metadata *clazz) {
+    object *p = malloc(clazz->size);
+    p->clazz = clazz;
+    return p;
+}
+
+
+
+int main(int argc, char *argv[])
+{
+    int x;
+
+    x = 1;
+    while (x){
+        printf("x is 1\n");
+        x = 0;
+    }
+}
+[05/13/15 13:02:52 test ./bild.py:87 bilder.py:69] gcc -o /tmp/while /tmp/while.c
+[05/13/15 13:02:52 test ./bild.py:87 bild.py:70] /tmp/while &> /tmp/while.txt
+[05/13/15 13:02:52 test ./bild.py:87 bilder.py:75] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 /tmp/while.c
+[05/13/15 13:02:52 test ./bild.py:87 bilder.py:77] gindent -bap -bad -br -nce -ncs -nprs -npcs -sai -saw -di1 -brs -blf --indent-level4 -nut -sob -l200 tests/cs652/j/while.c -o /tmp/expected_while.c
+[05/13/15 13:02:52 test ./bild.py:87 bilder.py:78] diff /tmp/expected_while.c /tmp/while.c
+[05/13/15 13:02:52 test ./bild.py:87 bilder.py:80] diff tests/cs652/j/while.txt /tmp/while.txt
